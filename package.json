@@ -1,0 +1,33 @@
+{
+  "name": "kefir-jquery",
+  "version": "1.0.0",
+  "description": "jQuery bindings for Kefir.js",
+  "main": "kefir-jquery.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pozadi/kefir-jquery.git"
+  },
+  "keywords": [
+    "kefir",
+    "jquery",
+    "frp",
+    "reactive"
+  ],
+  "author": "Roman Pominov <rpominov@gmail.com> (http://pozadi.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pozadi/kefir-jquery/issues"
+  },
+  "homepage": "https://github.com/pozadi/kefir-jquery",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-jasmine": "^0.8.2",
+    "jquery": "^2.1.3",
+    "kefir": "^0.5.3",
+    "load-grunt-tasks": "^3.0.0",
+  }
+}

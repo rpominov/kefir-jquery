@@ -1,0 +1,29 @@
+{
+  "name": "kefir-jquery",
+  "main": "kefir-jquery.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pozadi/kefir-jquery",
+  "authors": [
+    "Roman Pominov <rpominov@gmail.com>"
+  ],
+  "description": "jQuery bindings for Kefir.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "kefir",
+    "jquery",
+    "frp",
+    "reactive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

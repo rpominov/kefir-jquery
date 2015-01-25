@@ -19,10 +19,12 @@ bower install kefir-jquery
 
 ## Without pakage management
 
-```
+```html
 <script src="...kefir.js"></script>
 <script src="...jquery.js"></script>
-<script src="...kefir-jquery.js"></script> <!-- You can take this file from this repo -->
+
+<!-- You can take it file from this repo -->
+<script src="...kefir-jquery.js"></script>
 ```
 
 
@@ -31,7 +33,7 @@ bower install kefir-jquery
 Before you'll be able to use this plugin, you must call `kefirJQuery.init` method,
 which will add methods to your `jQuery.fn` object.
 
-```
+```js
 // with browserify, webpack, etc.
 
 var Kefir = require('kefir');
@@ -41,7 +43,7 @@ var kefirJQuery = require('kefir-jquery');
 kefirJQuery.init(Kefir, jQuery);
 ```
 
-```
+```js
 // with globals
 
 window.kefirJQuery.init(window.Kefir, window.jQuery);

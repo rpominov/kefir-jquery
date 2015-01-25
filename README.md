@@ -17,7 +17,7 @@ npm install kefir-jquery
 bower install kefir-jquery
 ```
 
-### Without pakage management
+### Without package management
 
 ```html
 <script src="...kefir.js"></script>

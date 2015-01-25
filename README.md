@@ -30,7 +30,7 @@ bower install kefir-jquery
 
 # Initialisation
 
-Before you'll be able to use this plugin, you must call `kefirJQuery.init` method,
+Before you'll be able to use this plugin, you must call `KefirJQuery.init` method,
 which will add methods to your `jQuery.fn` object.
 
 ```js
@@ -38,15 +38,15 @@ which will add methods to your `jQuery.fn` object.
 
 var Kefir = require('kefir');
 var jQuery = require('jquery');
-var kefirJQuery = require('kefir-jquery');
+var KefirJQuery = require('kefir-jquery');
 
-kefirJQuery.init(Kefir, jQuery);
+KefirJQuery.init(Kefir, jQuery);
 ```
 
 ```js
 // with globals
 
-window.kefirJQuery.init(window.Kefir, window.jQuery);
+window.KefirJQuery.init(window.Kefir, window.jQuery);
 ```
 
 

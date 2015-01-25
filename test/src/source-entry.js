@@ -1,5 +1,5 @@
 var Kefir = require('kefir');
-var jQuery = require('jQuery');
+var jQuery = require('jquery');
 var kefirJQuery = require('../../kefir-jquery');
 
 kefirJQuery.init(Kefir, jQuery);

@@ -5,19 +5,19 @@ jQuery bindings for [Kefir.js](https://pozadi.github.io/kefir/)
 
 # Installation
 
-## NPM
+### NPM
 
 ```
 npm install kefir-jquery
 ```
 
-## Bower
+### Bower
 
 ```
 bower install kefir-jquery
 ```
 
-## Without pakage management
+### Without pakage management
 
 ```html
 <script src="...kefir.js"></script>
@@ -52,7 +52,7 @@ window.kefirJQuery.init(window.Kefir, window.jQuery);
 
 # API
 
-## asKefirStream
+### asKefirStream
 
 `$(...).asKefirStream(eventName, [selector], [eventTransformer])`
 
@@ -102,7 +102,7 @@ clicksPageX.log('[e.pageX]');
 //                         643  15   721
 ```
 
-## asKefirProperty
+### asKefirProperty
 
 `$(...).asKefirProperty(eventName, [selector], getter)`
 

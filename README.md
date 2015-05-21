@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Curently this project is deprecated. Use `Kefir.fromEvents($(sel), 'eventName')` instead.
+
+
+
 # kefir-jquery [![Build Status](https://travis-ci.org/pozadi/kefir-jquery.svg?branch=master)](https://travis-ci.org/pozadi/kefir-jquery)
 
 jQuery bindings for [Kefir.js](https://pozadi.github.io/kefir/)
